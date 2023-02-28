@@ -1,4 +1,4 @@
-package com.udacity.jwdnd.c1.review;
+package com.udacity.jwdnd.c1.review.service;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Service;
