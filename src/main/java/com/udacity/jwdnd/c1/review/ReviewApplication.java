@@ -12,22 +12,22 @@ public class ReviewApplication {
 		SpringApplication.run(ReviewApplication.class, args);
 	}
 
-//	@Bean
-//	public String message(){
-//		System.out.println("Creating message bean");
-//		return "Hello, Spring";
-//	}
-//
-//	@Bean
-//	public String upperCaseMessage(MessageService messageService) {
-//		System.out.println("Creating uppercaseMessage bean");
-//		return messageService.uppercase();
-//	}
-//
-//	@Bean
-//	public String lowerCaseMessage(MessageService messageService) {
-//		System.out.println("Creating lowercaseMessage bean");
-//		return messageService.lowercase();
-//	}
+	@Bean
+	public String message(){
+		System.out.println("Creating message bean");
+		return "Hello, Spring";
+	}
+
+	@Bean
+	public String upperCaseMessage(MessageService messageService) {
+		System.out.println("Creating uppercaseMessage bean");
+		return messageService.uppercase();
+	}
+
+	@Bean
+	public String lowerCaseMessage(MessageService messageService) {
+		System.out.println("Creating lowercaseMessage bean");
+		return messageService.lowercase();
+	}
 
 }
